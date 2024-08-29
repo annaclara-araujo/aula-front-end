@@ -17,6 +17,7 @@ h1{
     font-size: 30px;
     font-weight:300;
     color: white;
+    /* border: 3px solid white;*/
 }
 
 .layout-grid {
@@ -25,17 +26,22 @@ h1{
     max-width: 992px;
     margin: 0 auto; 
     background-color: rgb(238,238,192);
-    border:  1px solid salmon;
+    /*border:  3px solid salmon;*/
 }
 
 .header-flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav {
-    width: 400px;;
+    width: 400px;
     height: 100%;
-    border: 3px solid white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+   /* border: 3px solid white;*/
 }
+
 
